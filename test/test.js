@@ -68,7 +68,7 @@ describe('Closure and Callback Exercises', function () {
 
   describe('Closures - Exercise 2', function () {
     it("someFunc should return a function that adds it's input to the next", function () {
-      var counterStart = cc.counter()
+      
       expect(cc.counter()).to.eql(5)
       cc.counter()
       expect(cc.counter()).to.eql(7)
